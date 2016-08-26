@@ -6,9 +6,9 @@ Download the [PowerPoint](Infastructure as Code.pptx?raw=1).
 
 
 ## Demos
-1. Create an ARM template to provision a virtual machine
-2. Deploy the ARM Template
-3. Verify the ARM template deployment
+1. [Create an ARM template to provision a virtual machine] (./Demo1 - Create an ARM Template/README.MD)
+2. [Deploy the ARM Template]()
+3. [Verify the ARM template deployment] (./Demo1 - Create an ARM Template/README.MD)
 
 ## Session objectives
 * Why ARM? Benefits, how does this help you doing business? Automation! 
@@ -21,11 +21,10 @@ Download the [PowerPoint](Infastructure as Code.pptx?raw=1).
 ## Session Prerequisites
 
 ## Azure Services Covered
-* [[Azure Resource Manager]] (https://azure.microsoft.com/en-us/documentation/articles/resource-group-overview/)
-* [[PowerShell DSC]] (https://azure.microsoft.com/en-us/documentation/articles/automation-dsc-overview/)
+* [Azure Resource Manager] (https://azure.microsoft.com/en-us/documentation/articles/resource-group-overview/)
+* [PowerShell DSC] (https://azure.microsoft.com/en-us/documentation/articles/automation-dsc-overview/)
 
 
 ## Code of Conduct
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-
