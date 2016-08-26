@@ -2,7 +2,7 @@
 ARM is key to making any offering repeatable and potentially fully automated to deploy. Management inside the VMs is key to creating very large environments on which offerings could run, and helps make the mindshift from on-prem to Cloud. 
 
 ##Presentation
-Download the [PowerPoint](Infastructure as Code.pptx?raw=1).
+Download the [PowerPoint](./Infrastructure%20as%20Code.pptx?raw=1).
 
 
 ## Demos
