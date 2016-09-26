@@ -37,7 +37,7 @@ _Estimated Time: 10 minutes_
  
  <img src="./media/image010.jpg" />
 
-** Add Azure resources to the deployment template
+#### Add Azure resources to the deployment template####
 1.	In the JSON Outline window, right-click on resources and select Add New Resource.
 2.	In the Add Resource window, select Storage Account.
     a.	Set the resource Name to stg.  Note: Be sure to use all lowercase letters.  Azure storage account names must be all lowercase and can only contain alpha-numeric characters.
@@ -46,7 +46,7 @@ _Estimated Time: 10 minutes_
  <img src="./media/image011.jpg" />
 
 3.	In the JSON Outline window, right-click on resources and select Add New Resource.
-4.	In the Add Resource window, select Storage Account.
+4.	In the Add Resource window, select Virtual Network.
     a.	Set the resource Name to vnet.
     b.	Click Add.
 
