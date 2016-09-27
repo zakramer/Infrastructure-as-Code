@@ -6,7 +6,7 @@ Download the [PowerPoint](./Infrastructure%20as%20Code.pptx?raw=1).
 
 
 ## Demos
-1. [Create an ARM template to provision a virtual machine] (./Demo1%20-%20Create%20an%20ARM%20template/README.MD)
+1. [Create an ARM template to provision a virtual machine] (./Demo1%20-%20Create%20an%20ARM%20template/README.MD) [[Video](https://azurecatgsicontent.blob.core.windows.net/infrastructure-as-code/IaC.mp4)]
 2. [Deploy the ARM Template](./Demo2%20-%20Deploy%20the%20ARM%20Template/README.MD)
 3. [Verify the ARM template deployment] (./Demo3%20-%20Verify%20the%20ARM%20template%20deployment/README.MD)
 
