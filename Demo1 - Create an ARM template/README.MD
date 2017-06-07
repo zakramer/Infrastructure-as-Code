@@ -1,4 +1,4 @@
-#Demo - 
+ #Demo - 
 
 In this demo you will be introduced to the authoring tools used to create ARM templates using Visual Studio 2015.  You will create a new ARM template from scratch to provision an Azure virtual machine.  For this demo, you will be using the following:
 •	Visual Studio 2015 w/Update 3
@@ -8,18 +8,18 @@ After completing this demo, you will understand:
 •	How resources are added and configured in an ARM template
 •	How parameters are passed into an ARM template
 
-##Pre-requisites
+## Pre-requisites
 
 None
 
-##Setup
+## Setup
 
 No setup required.
 
-##Demo Steps
+## Demo Steps
 _Estimated Time: 10 minutes_
 
-####Create a new Azure Resource Group Project####
+#### Create a new Azure Resource Group Project####
 1.	Open Visual Studio.  
 2.	From the main menu, select File | New | Project.
     a.	Choose the Azure Resource Group project.
@@ -257,5 +257,5 @@ o	Downloads a sample Web Deploy Package from GitHub,
 o	Installs the Web Deploy Package
 
 
-##Cleanup
+## Cleanup
 No cleanup required.
