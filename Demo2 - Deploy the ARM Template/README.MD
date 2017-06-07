@@ -1,4 +1,4 @@
-#Demo - 
+# Demo
 
 In this demo you will deploy the ARM template created in the previous demo.  There are several ways one could go about deploying the ARM template, such as
 * Use Azure PowerShell - “AzureRm” Cmdlets,
@@ -15,18 +15,18 @@ After completing this demo, you will understand:
 * How to deploy an ARM template using PowerShell
 
 
-##Pre-requisites
+## Pre-requisites
 
 None
 
-##Setup
+## Setup
 
 No setup required.
 
-##Demo Steps
+## Demo Steps
 _Estimated Time: 10 minutes_
 
-####Deploy the ARM Template####
+#### Deploy the ARM Template
 Deploy from Visual Studio
 1.	From the main menu, select Project | Deploy | New Deployment.
 2.	In the Deploy to Resource Group window
@@ -71,7 +71,7 @@ A successful deployment will take about 15 minutes to finish.  You will see evid
 
 If your deployment is still running you may continue ahead to the next section.  It is not necessary to wait.  Leave Visual Studio open so you can come back to it later.
 
-##Deploy using PowerShell##
+## Deploy using PowerShell
 1.	Open PowerShell on your machine.  Press the <Windows Key> and then type PowerShell.
 2.	Right-click on Windows PowerShell from the search result and select Run as administrator.
 
@@ -110,5 +110,5 @@ The output from the script is the same as what you saw in the scenario where you
 If your deployment is still running you may continue ahead to the next section.  It is not necessary to wait.  Leave the PowerShell console open so you can come back to it later if you want.
 
 
-##Cleanup
+## Cleanup
 No cleanup required.
