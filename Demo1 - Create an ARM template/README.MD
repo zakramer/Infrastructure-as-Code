@@ -1,12 +1,12 @@
 # Demo
 
 In this demo you will be introduced to the authoring tools used to create ARM templates using Visual Studio 2015.  You will create a new ARM template from scratch to provision an Azure virtual machine.  For this demo, you will be using the following:
-•	Visual Studio 2015 w/Update 3
-•	Microsoft Azure SDK for .NET v2.9.1
+* Visual Studio 2015 w/Update 3
+* Microsoft Azure SDK for .NET v2.9.1
 After completing this demo, you will understand:
-•	The overall structure of an ARM template
-•	How resources are added and configured in an ARM template
-•	How parameters are passed into an ARM template
+* The overall structure of an ARM template
+* How resources are added and configured in an ARM template
+* How parameters are passed into an ARM template
 
 ## Pre-requisites
 
@@ -90,8 +90,10 @@ _Estimated Time: 10 minutes_
     "vmNicName": "[concat(parameters('vmName'), 'NetworkInterface')]",
     "vmpipName": "vmpip",
     "vmpipDnsName": "[concat(parameters('vmName'), uniqueString(resourceGroup().id))]"
-    ```
+```
+
 What we did in last few steps are re-factor the parameter called vmpipDnsName into a variable that will automatically generate a unique DNS name for the Public IP Address.  If we didn’t do this, then the end-user deploying the template could potentially experience a DNS name conflict if the value specified is not unique.  By refactoring to a variable and using the uniqueString function, we’re able to provide a better end-user experience during deployment.
+
 11.	In the JSON Outline window, click on the vmpip resource under the resources node.  
 <img src="./media/image015.jpg" />
  
@@ -129,7 +131,7 @@ The JSON Outline windows is also a useful way to navigate through the JSON text 
 
 16.	In the Solution Explorer window, expand the DSC folder and double-click on the dsc.ps1 file. 
 a.	Replace the contents of dsc.p1 with the following code shown here.
-```JSON
+```
 Configuration Main
 {
 
