@@ -1,14 +1,13 @@
 # ARM-End-to-End
 ARM is key to making any offering repeatable and potentially fully automated to deploy. Management inside the VMs is key to creating very large environments on which offerings could run, and helps make the mindshift from on-prem to Cloud. 
 
-##Presentation
+## Presentation
 Download the [PowerPoint](./Infrastructure%20as%20Code.pptx?raw=1).
 
-
 ## Demos
-1. [Create an ARM template to provision a virtual machine] (./Demo1%20-%20Create%20an%20ARM%20template/README.MD) [[Video](https://azurecatgsicontent.blob.core.windows.net/infrastructure-as-code/IaC.mp4)]
-2. [Deploy the ARM Template](./Demo2%20-%20Deploy%20the%20ARM%20Template/README.MD)[[Video](https://azurecatgsicontent.blob.core.windows.net/infrastructure-as-code/IaC2.mp4)]
-3. [Verify the ARM template deployment] (./Demo3%20-%20Verify%20the%20ARM%20template%20deployment/README.MD) [[Video](https://azurecatgsicontent.blob.core.windows.net/infrastructure-as-code/IaC3.mp4)]
+1. [Create an ARM template to provision a virtual machine](./Demo1%20-%20Create%20an%20ARM%20template/README.MD) [[Video](https://azurecatgsicontent.blob.core.windows.net/infrastructure-as-code/IaC.mp4)]
+2. [Deploy the ARM Template](./Demo%20-%20Deploy%20the%20ARM%20Template/README.MD)[[Video](https://azurecatgsicontent.blob.core.windows.net/infrastructure-as-code/IaC2.mp4)]
+3. [Verify the ARM template deployment](./Demo3%20-%20Verify%20the%20ARM%20template%20deployment/README.MD) [[Video](https://azurecatgsicontent.blob.core.windows.net/infrastructure-as-code/IaC3.mp4)]
 
 ## Session objectives
 * Why ARM? Benefits, how does this help you doing business? Automation! 
@@ -16,7 +15,6 @@ Download the [PowerPoint](./Infrastructure%20as%20Code.pptx?raw=1).
 * Guidance on managing Azure using ARM
     - Deploy with PowerShell vs CLI
     - Inside vs Outside VM, Limitations of ARM (and how do you solve that) 
-
 
 ## Session Prerequisites
 
