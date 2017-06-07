@@ -3,6 +3,7 @@
 In this demo you will be introduced to the authoring tools used to create ARM templates using Visual Studio 2015.  You will create a new ARM template from scratch to provision an Azure virtual machine.  For this demo, you will be using the following:
 * Visual Studio 2015 w/Update 3
 * Microsoft Azure SDK for .NET v2.9.1
+
 After completing this demo, you will understand:
 * The overall structure of an ARM template
 * How resources are added and configured in an ARM template
