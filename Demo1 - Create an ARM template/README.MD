@@ -1,4 +1,4 @@
-# Demo - 
+# Demo
 
 In this demo you will be introduced to the authoring tools used to create ARM templates using Visual Studio 2015.  You will create a new ARM template from scratch to provision an Azure virtual machine.  For this demo, you will be using the following:
 •	Visual Studio 2015 w/Update 3
@@ -72,6 +72,7 @@ _Estimated Time: 10 minutes_
 9.	In the JSON Outline window, expand the parameters node to show all the parameters.
     a.	Right-click on the vmpipDnsName and select Delete.
 10.	In the editor window for azuredeploy.json, add a new variable called vmpipDnsName as shown here.
+```JSON
   "variables": {
     "stgName": "[concat('stg', uniqueString(resourceGroup().id))]",
     "vnetPrefix": "10.0.0.0/16",
@@ -89,6 +90,7 @@ _Estimated Time: 10 minutes_
     "vmNicName": "[concat(parameters('vmName'), 'NetworkInterface')]",
     "vmpipName": "vmpip",
     "vmpipDnsName": "[concat(parameters('vmName'), uniqueString(resourceGroup().id))]"
+    ```
 What we did in last few steps are re-factor the parameter called vmpipDnsName into a variable that will automatically generate a unique DNS name for the Public IP Address.  If we didn’t do this, then the end-user deploying the template could potentially experience a DNS name conflict if the value specified is not unique.  By refactoring to a variable and using the uniqueString function, we’re able to provide a better end-user experience during deployment.
 11.	In the JSON Outline window, click on the vmpip resource under the resources node.  
 <img src="./media/image015.jpg" />
@@ -244,17 +246,17 @@ Node $nodeName
 
 A best practice is to store credentials in Azure Key Vault and have Azure Resource Manager retrieve the credentials from the vault to provision the administrator credentials in the virtual machine.  Azure Key Vault is beyond the scope of this lab so we’re storing the credentials in the parameters file for simplicity.
 You now have a complete ARM template that provisions an IaaS environment with the following resources:
-•	A storage account to store the virtual machine’s hard disk (.vhd).
-•	A virtual network with two subnets.  A virtual machine requires a virtual network.
-•	A virtual network interface card (NIC).  This binds the virtual machine to the virtual network.
-•	A public IP address resource.  This is necessary if you want the virtual machine to be publicly accessible.
-•	A PowerShell DSC extension to configure the internals of the virtual machine.  The DSC configuration script adds the following configuration:
-o	Configures the virtual machine to be an IIS Web Server,
-o	Adds support for ASP.NET 4.5,
-o	Downloads and installs the Web Deploy Service package,
-o	Starts the Web Deploy Service,
-o	Downloads a sample Web Deploy Package from GitHub,
-o	Installs the Web Deploy Package
+* A storage account to store the virtual machine’s hard disk (.vhd).
+* A virtual network with two subnets.  A virtual machine requires a virtual network.
+* A virtual network interface card (NIC).  This binds the virtual machine to the virtual network.
+* A public IP address resource.  This is necessary if you want the virtual machine to be publicly accessible.
+* A PowerShell DSC extension to configure the internals of the virtual machine.  The DSC configuration script adds the following configuration:
+* Configures the virtual machine to be an IIS Web Server,
+    * Adds support for ASP.NET 4.5,
+    * Downloads and installs the Web Deploy Service package,
+    * Starts the Web Deploy Service,
+    * Downloads a sample Web Deploy Package from GitHub,
+    * Installs the Web Deploy Package
 
 
 ## Cleanup
